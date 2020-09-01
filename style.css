@@ -32,11 +32,14 @@ body{
 .heads
 {
     font-family: 'Roboto Mono', monospace;
-    padding:20px 0;
-    margin-left:calc(43%);
     font-size:60px;
-    color:rgb(83, 81, 81);
+    color:rgb(240, 94, 94);
     font-weight:bolder;
+    margin:50px calc(5%);
+    text-align:center; 
+     border: 2px solid rgba(83, 81, 81,0.9);
+     border-radius:20px;
+     background:rgba(0, 0, 0,0.9)
 }
 .items
 {
@@ -46,31 +49,24 @@ body{
     margin-left:calc(12%);
     margin-bottom:5px;
     border:solid 1px rgb(83, 81, 81);
+    text-align:center;
 }
 img.items{
     border-radius:25px 0 25px 0;
     background:rgb(240, 94, 94);
+    text-align:center;
 }
 #add
 {
     width:calc(80%);
-    padding-right:calc(2.33%);
-    padding-left:calc(5%);
-    margin-left:calc(5%);
+   padding-left: 0px;
     margin-bottom:30px;
+    text-align:center;
 }
 .list
 {
     list-style-type: none;
-    padding-left:37px;
-}
-.head
-{
-    font-family: 'Roboto Mono', monospace;
-    padding:20px 0 20px calc(36%);
-    font-size:60px;
-    color:rgb(83, 81, 81);
-    font-weight: bolder;
+    padding-left:0;
 }
 #submit
 {
@@ -129,6 +125,7 @@ h3
 {
     color:rgb(83, 81, 81);
     font-family: 'Roboto Mono', monospace;
+    text-align:center;
 }
 button
 {
