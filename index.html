@@ -16,7 +16,7 @@
         <span class="navbar-toggler-icon"></span>
         </button>   
         <div class="collapse navbar-collapse" id="MyNav">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-auto">
               <li class=nav-item>
                 <a href="#order" class="nav-link">Order</a>
             </li>
@@ -258,11 +258,13 @@
           </div>
           <div class="form-group">
             <label class="forum" for="phoneInput">Mobile No.</label>
-            <input class="form-control" id="phoneInput" placeholder="Enter your mobile no." aria-describedby="phoneHelp">
+            <input class="form-control" id="phoneInput" placeholder="Enter your mobile no." aria-describedby="phoneHelp"  
+              maxlength="10">
           </div>
           <div class="form-group">
             <label class="forum" for="cardInput">Card Details</label>
-            <input class="form-control" id="cardInput" placeholder="Enter your cvv pin" aria-describedby="cardHelp" type="password">
+            <input type="password" class="form-control" id="cardInput" placeholder="Enter your cvv pin" aria-describedby="cardHelp"
+             maxlength="3">
           </div>
           <div class="form-check">
             <label class="form-check-label">
@@ -284,7 +286,7 @@
    <h3><u>About Us</u></h3>
    E-mail : foodvista@gmail.com<br>
    Phone : 981234567,0128405432<br>
-   Address : Menlo park,South Street,MB Road,Delhi,India<br>
+   Address : <span>Menlo park, South Street, MB Road, Delhi, India</span><br>
    Social-media handles :
    <i class="fab fa-instagram" aria-hidden="true"></i>
    <i class="fab fa-linkedin" aria-hidden="true"></i>

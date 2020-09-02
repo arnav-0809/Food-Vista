@@ -178,7 +178,7 @@ button:hover
   }
 .col-sm-4:hover .overlay
 {
-    opacity:1;
+    opacity:0.9;
 }
 .text
 {
@@ -206,3 +206,8 @@ i{
 {
     font-size:18px;
 }
+.carousel-caption
+{
+    font-size:18px;
+}
+
